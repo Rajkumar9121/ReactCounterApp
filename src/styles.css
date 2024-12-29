@@ -1,0 +1,81 @@
+/* Base styles */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #74ebd5, #acb6e5);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 90%;
+}
+
+/* Typography */
+h1 {
+  font-size: 2.5rem;
+  color: #333333;
+}
+
+h2 {
+  font-size: 4rem;
+  color: #555555;
+  margin: 20px 0;
+  border: 2px solid #74ebd5;
+  border-radius: 8px;
+  padding: 10px;
+  background: #f9f9f9;
+}
+
+/* Button group */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button.increase {
+  background: #74c69d;
+  color: white;
+}
+
+button.increase:hover {
+  background: #52b788;
+}
+
+button.reset {
+  background: #f77f00;
+  color: white;
+}
+
+button.reset:hover {
+  background: #d95d00;
+}
+
+button.decrease {
+  background: #4d96ff;
+  color: white;
+}
+
+button.decrease:hover {
+  background: #3a7bd5;
+}
